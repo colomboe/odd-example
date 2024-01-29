@@ -1,0 +1,15 @@
+{
+    "projectName": "OddExample",
+    "languages": [{
+        "id": "odd-example",
+        "grammar": "src/language/odd-example.langium",
+        "fileExtensions": [".odd"],
+        "textMate": {
+            "out": "syntaxes/odd-example.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "syntaxes/odd-example.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}

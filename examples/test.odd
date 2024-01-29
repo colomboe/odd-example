@@ -1,0 +1,23 @@
+deviceType PC {
+    keyboard
+    mouse
+    screen
+}
+
+deviceType Smartphone {
+    wirelessCharge
+    NFC
+    camera
+}
+
+device MyPhone type Smartphone {
+    wirelessCharge: "yes"
+    NFC: "no"
+    camera: "13Mpixel"
+}
+
+device MyPC type PC {
+    keyboard: "US"
+    mouse: "wireless"
+    screen: "1920x1080"
+}
